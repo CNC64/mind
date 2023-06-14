@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.1/dist/mindar-image-aframe.prod.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
 	<script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
   </head>
   <body>
@@ -20,7 +19,7 @@
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
       <a-entity mindar-image-target="targetIndex: 0">
        <!--a-video src="#pal.mp4" position="0 0 0" height="0.09" width="0.16" rotation="0 0 0"></a-video-->
-       <a-gltf-model animation-mixer="" rotation="0 0 0 " position="0 0 0.1" scale="0.1 0.1 0.1 " src="#scene" animation="property: position; to: 0 0.1 0.1; dur: 0; easing: easeInOutQuad; loop: true; dir: alternate">
+       <a-gltf-model animation-mixer="" rotation="0 0 0 " position="0 0 0.1" scale="0.1 0.1 0.1 " src="#scene" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate">
       
 	  
 	  </a-entity>
